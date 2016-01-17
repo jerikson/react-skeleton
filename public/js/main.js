@@ -19074,7 +19074,6 @@ var React = require('react');
 var ReactDOM = require('react-dom');
 var List = require('./components/List.jsx');
 
-ReactDOM.render(React.createElement(List), document.getElementById('bonesDiv'));
 ReactDOM.render(React.createElement(List, null), document.getElementById('bonesDiv'));
 
 },{"./components/List.jsx":159,"react":158,"react-dom":29}]},{},[161]);
