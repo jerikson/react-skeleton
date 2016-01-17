@@ -19028,7 +19028,7 @@ module.exports = require('./lib/React');
 var React = require('react');
 var ListItem = require('./ListItem.jsx');
 
-var list = [{ "id": 1, "text": "lorem ipsum" }];
+var list = [{ id: 1, text: 'lorem ipsum' }, { id: 2, text: 'dolor sit' }];
 
 var List = React.createClass({
   displayName: 'List',
@@ -19049,8 +19049,6 @@ module.exports = List;
 
 },{"./ListItem.jsx":160,"react":158}],160:[function(require,module,exports){
 var React = require('react');
-//var Styles = require('./Styles.jsx')
-
 var ListItem = React.createClass({
     displayName: 'ListItem',
 

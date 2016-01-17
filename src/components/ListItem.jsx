@@ -1,14 +1,10 @@
 var React = require('react');
-//var Styles = require('./Styles.jsx')
-
 var ListItem = React.createClass({
     render: function() {
         return (
-          <li>
+            <li>
                 <h2>{this.props.bone}</h2>
             </li>
-
-
         );
     }
 });
